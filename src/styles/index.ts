@@ -5,10 +5,12 @@ export const theme = {
     white: '#fff',
     background: '#282c34',
     yellow: '#f1c400',
-    darkGray: '#353535',
     disabled: '#EEEEEE',
+    darkGray: '#353535',
+    lightGray: '#BBBBBB',
     middleGray: '#5A5A5A',
   },
+
   fontSize: {
     h1: normalize(24),
     h2: normalize(16),
@@ -27,6 +29,15 @@ export const theme = {
     width: {
       small: normalize(88),
       large: normalize(240),
+    },
+  },
+
+  inputSize: {
+    width: {
+      default: normalize(280),
+    },
+    height: {
+      default: normalize(40),
     },
   },
 }
