@@ -1,3 +1,4 @@
+import {normalize} from '@utils/Normalize'
 import styled from 'styled-components/native'
 import {InputIconType, InputViewProps} from './types'
 
@@ -7,7 +8,7 @@ export const InputView = styled.View<InputViewProps>`
 `
 
 export const TextInput = styled.TextInput<InputIconType>`
-  text-align: center;
+  padding-left: ${normalize(86)}px;
   background-color: ${(props) => props.theme.colors.white};
   border-radius: ${(props) => props.borderRadius || 4}px;
   border-style: solid;

@@ -1,9 +1,9 @@
-import {Button, Input} from '@components/index'
+import {Button, Input, Logo} from '@components/index'
 import {useNavigation} from '@react-navigation/native'
 import {normalize} from '@utils/Normalize'
 import React, {useEffect, useState} from 'react'
 import {Alert} from 'react-native'
-import {Card, CardTitle, Container, HomeView, Logo} from './styles'
+import {Card, CardTitle, Container, HomeView} from './styles'
 
 export const Home = () => {
   const {navigate, addListener} = useNavigation()

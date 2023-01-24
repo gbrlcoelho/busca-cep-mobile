@@ -1,8 +1,8 @@
-import {Button, Loader, ResultList} from '@components/index'
+import {Button, Loader, Logo, ResultList} from '@components/index'
 import {useNavigation, useRoute} from '@react-navigation/native'
 import {IZipcodeResponse} from '@services/api'
 import CepService from '@services/microservices/CepService'
-import {Card, CardTitle, Container, HomeView, Logo} from '@views/home/styles'
+import {Card, CardTitle, Container, HomeView} from '@views/home/styles'
 import React, {useEffect, useState} from 'react'
 import {ScreenRouteProp} from './types'
 
