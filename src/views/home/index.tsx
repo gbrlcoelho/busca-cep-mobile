@@ -35,6 +35,7 @@ export const Home = () => {
             onChangeText={setZipcode}
             width={normalize(240)}
             maxLength={8}
+            keyboardType='numeric'
           />
         </HomeView>
         <HomeView>
