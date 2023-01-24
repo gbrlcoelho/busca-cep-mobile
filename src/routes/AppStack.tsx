@@ -1,4 +1,5 @@
 import {createNativeStackNavigator} from '@react-navigation/native-stack'
+import {Details} from '@views/details'
 import {Home} from '@views/home'
 import React from 'react'
 import {StatusBar} from 'react-native'
@@ -13,6 +14,7 @@ export const AppStack = () => {
       <StatusBar barStyle='light-content' backgroundColor={colors.background} />
       <Navigator>
         <Screen name='Home' component={Home} options={{headerShown: false}} />
+        <Screen name='Details' component={Details} options={{headerShown: false}} />
       </Navigator>
     </>
   )

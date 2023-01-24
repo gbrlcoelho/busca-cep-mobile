@@ -27,10 +27,11 @@ export const LoadingView = styled.View`
 export const Card = styled.View`
   align-items: center;
   width: 100%;
-  height: ${normalize(380)}px;
+  height: auto;
   border-radius: ${normalize(8)}px;
   border-width: ${normalize(4)}px;
   border-color: ${({theme}) => theme.colors.white};
+  padding-bottom: ${normalize(16)}px;
 `
 export const HomeView = styled.View`
   padding: ${normalize(16)}px;
