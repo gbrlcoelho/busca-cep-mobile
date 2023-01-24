@@ -1,4 +1,4 @@
-import {ApiResponse, ICepResponse} from '@services/api'
+import {ApiResponse, IZipcodeResponse} from '@services/api'
 import {axios} from '@services/Service'
 
 class CepService {
@@ -8,7 +8,7 @@ class CepService {
     this.cep = '/json'
   }
 
-  getCep = async (cep: string): ApiResponse<ICepResponse> => {
+  getCep = async (cep: string): ApiResponse<IZipcodeResponse> => {
     return await axios.get(`${cep}${this.cep}/`)
   }
 }

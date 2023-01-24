@@ -2,7 +2,7 @@ import React, {memo} from 'react'
 import {Container, ResultText, RowGap, Title} from './styles'
 import {ResultListProps} from './types'
 
-const ResultList = ({cepData}: ResultListProps) => {
+const ResultList = ({zipcodeData: cepData}: ResultListProps) => {
   return (
     <Container>
       <RowGap>

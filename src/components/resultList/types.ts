@@ -1,5 +1,5 @@
-import {ICepResponse} from '@services/api'
+import {IZipcodeResponse} from '@services/api'
 
 export interface ResultListProps {
-  cepData: ICepResponse
+  zipcodeData: IZipcodeResponse
 }

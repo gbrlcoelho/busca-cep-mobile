@@ -17,21 +17,13 @@ export const Logo = styled(Image).attrs({
   height: ${normalize(40)}px;
 `
 
-export const LoadingView = styled.View`
-  flex: 1;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-`
-
 export const Card = styled.View`
   align-items: center;
   width: 100%;
-  height: auto;
+  height: ${normalize(380)}px;
   border-radius: ${normalize(8)}px;
   border-width: ${normalize(4)}px;
   border-color: ${({theme}) => theme.colors.white};
-  padding-bottom: ${normalize(16)}px;
 `
 export const HomeView = styled.View`
   padding: ${normalize(16)}px;

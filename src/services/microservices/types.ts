@@ -8,7 +8,7 @@ export type ListAllResponse<T> = ApiResponse<{
   content: Array<T>
 }>
 
-export interface ICepResponse {
+export interface IZipcodeResponse {
   cep: string
   logradouro: string
   complemento: string
